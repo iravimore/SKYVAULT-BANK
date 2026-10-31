@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vault-50: #eef4ff;
+  --color-vault-100: #d9e6ff;
+  --color-vault-500: #2f5fed;
+  --color-vault-600: #254bcc;
+  --color-vault-700: #1d3ba3;
+  --color-vault-900: #101f57;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
